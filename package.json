@@ -1,0 +1,35 @@
+{
+	"name": "react-card",
+	"version": "0.1.0",
+	"private": true,
+	"dependencies": {
+		"moment": "^2.29.1",
+		"node-sass": "^4.14.1",
+		"react": "^17.0.1",
+		"react-dom": "^17.0.1",
+		"react-scripts": "3.4.4",
+		"react-transition-group": "^4.4.1"
+	},
+	"scripts": {
+		"build": "react-scripts build",
+		"eject": "react-scripts eject",
+		"lint": "eslint .",
+		"start": "react-scripts start",
+		"test": "react-scripts test"
+	},
+	"eslintConfig": {
+		"extends": "react-app"
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	}
+}
